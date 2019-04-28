@@ -1,0 +1,14 @@
+[package]
+name = "evu"
+version = "0.1.0"
+authors = ["Norberto Lopes <nlopes.ml@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "evu"
+doc = false
+
+[dependencies]
+arq = "0.1"
+clap = "~2.31"
+rpassword = "2.0"
