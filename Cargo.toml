@@ -10,5 +10,5 @@ doc = false
 
 [dependencies]
 arq = "0.1"
-clap = "~2.31"
-rpassword = "2.0"
+clap = "~2.33"
+rpassword = "3.0"
