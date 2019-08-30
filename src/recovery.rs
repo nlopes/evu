@@ -123,7 +123,6 @@ fn restore_object(
                         let mut reader = utils::get_file_reader(pack_path);
                         reader.seek(SeekFrom::Start(obj.offset as u64))?;
                         let ob = packset::PackObject::new(&mut reader)?;
-                        use Write;
                         let mut f = File::create(filename)?;
                         let data = ob.original(compression.clone(), master_key)?;
                         f.write_all(&data)?;
