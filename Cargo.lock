@@ -185,7 +185,7 @@ version = "0.1.0"
 dependencies = [
  "arq 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "clap 2.33.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "rpassword 4.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rpassword 4.0.5 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -392,7 +392,7 @@ dependencies = [
 
 [[package]]
 name = "rpassword"
-version = "4.0.4"
+version = "4.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "libc 0.2.62 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -587,7 +587,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum rand_core 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "9c33a3c44ca05fa6f1807d8e6743f3824e8509beca625669633be0acbdf509dc"
 "checksum redox_syscall 0.1.56 (registry+https://github.com/rust-lang/crates.io-index)" = "2439c63f3f6139d1b57529d16bc3b8bb855230c8efcc5d3a896c8bea7c3b1e84"
 "checksum ring 0.14.6 (registry+https://github.com/rust-lang/crates.io-index)" = "426bc186e3e95cac1e4a4be125a4aca7e84c2d616ffc02244eef36e2a60a093c"
-"checksum rpassword 4.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = "648a7e04c56d74fc845c489a4bacc8fa72765f271240af4d17772a8de8d55838"
+"checksum rpassword 4.0.5 (registry+https://github.com/rust-lang/crates.io-index)" = "99371657d3c8e4d816fb6221db98fa408242b0b53bac08f8676a41f8554fe99f"
 "checksum safemem 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)" = "d2b08423011dae9a5ca23f07cf57dac3857f5c885d352b76f6d95f4aea9434d0"
 "checksum serde 1.0.99 (registry+https://github.com/rust-lang/crates.io-index)" = "fec2851eb56d010dc9a21b89ca53ee75e6528bab60c11e89d38390904982da9f"
 "checksum serde_derive 1.0.99 (registry+https://github.com/rust-lang/crates.io-index)" = "cb4dc18c61206b08dc98216c98faa0232f4337e1e1b8574551d5bad29ea1b425"
