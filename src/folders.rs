@@ -8,7 +8,7 @@ use arq::folder::Folder;
 
 pub fn show(path: &str, computer: &str) -> Result<()> {
     let computers_path = Path::new(path).join(computer);
-    let master_keys = utils::get_master_keys(&path, &computer)?;
+    let master_keys = utils::get_master_keys(path, computer)?;
 
     println!("Folders\n-------");
     for entry in std::fs::read_dir(computers_path.join("buckets"))? {
